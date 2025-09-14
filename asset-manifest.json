@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/digital-marketing/static/css/main.5f298086.css",
-    "main.js": "/digital-marketing/static/js/main.4223a4d2.js",
+    "main.js": "/digital-marketing/static/js/main.c9c633b4.js",
     "static/js/453.7f5eaa4a.chunk.js": "/digital-marketing/static/js/453.7f5eaa4a.chunk.js",
     "static/media/about.png": "/digital-marketing/static/media/about.854c7f250009ee9c06b7.png",
     "static/media/hero-img.png": "/digital-marketing/static/media/hero-img.64cace408ca203f5e976.png",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/digital-marketing/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/digital-marketing/index.html",
     "main.5f298086.css.map": "/digital-marketing/static/css/main.5f298086.css.map",
-    "main.4223a4d2.js.map": "/digital-marketing/static/js/main.4223a4d2.js.map",
+    "main.c9c633b4.js.map": "/digital-marketing/static/js/main.c9c633b4.js.map",
     "453.7f5eaa4a.chunk.js.map": "/digital-marketing/static/js/453.7f5eaa4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f298086.css",
-    "static/js/main.4223a4d2.js"
+    "static/js/main.c9c633b4.js"
   ]
 }
