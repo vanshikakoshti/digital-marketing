@@ -28,6 +28,12 @@ img {
 li.nav-item{
   padding-right: 20px;
 }
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: #fff;
+}
+.logo{
+  width: 200px;
+}
 /* HeroSection.css */
 .hero-img-container {
   position: relative;
@@ -123,7 +129,9 @@ padding-left: 0;
 .footer-list:hover{
   color: #ffc107;
 }
-
+.footer-logo{
+  width: 250px;
+}
 .accordion-item:first-of-type>.accordion-header .accordion-button, .accordion-button:not(.collapsed){
   background-color: #ffc107 !important;
 }

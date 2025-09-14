@@ -1,6 +1,6 @@
 import React from 'react'
 import "./custom.css"; 
-import aboutImg from "./assets/img/about.jpg"; 
+import aboutImg from "./assets/img/about.png"; 
 import Navbar from './Navbar';
 import {ServiceCardMini} from "./Services";
 import PageHeader from "./PageHeader";
@@ -11,7 +11,7 @@ import Footer from './Footer';
 
 export  function About() {
   return (
-    <div className="section-padding">
+    <div className="default-padding">
       <div className="container">
         <div className="row" style={{justifyContent:'space-around', alignItems:'center'}}>
           <div className="col-md-4">
@@ -32,7 +32,7 @@ export  function About() {
             <button className="btn btn-cust px-4">Learn More</button>
             </div>
 
-            <div className="row justify-content-center">
+            <div className="row justify-content-center"  data-aos="fade-up" data-aos-delay="100">
               <div className='col-md-6'>
                 <ServiceCardMini
                   icon={faHandshake}

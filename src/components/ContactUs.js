@@ -25,7 +25,7 @@ export function ContactForm() {
   };
 
   return (
-    <div className="container section-padding">
+    <div className="container section-padding" data-aos="fade-up" data-aos-delay="100">
         <div className="contact-container">
       <h2 className='text-center'>Contact Us</h2>
       <form onSubmit={handleSubmit} className="mt-4 ">

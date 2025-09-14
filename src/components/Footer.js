@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram, faLinkedinIn, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import logo from "./assets/img/logo.png"; 
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
      <div className="container">
         <div className="row" style={{justifyContent:'space-around'}}>
             <div className="col-md-4">
-                <h2>Media Buzz</h2>
+                <img src={logo} alt="Team" className="footer-logo"  />
                 <p>A modern, fully customizable website template designed for agencies that want to showcase their services, portfolio, and expertise</p>
                 <div className="d-flex">
                     <div className="bg-secondary client-img text-white d-flex justify-content-center align-items-center"> <a href="/"><FontAwesomeIcon icon={faFacebookF} style={{ color: "#fff"}}/></a></div>
@@ -48,7 +49,7 @@ export default function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <p className='text-center my-4'>© {new Date().getFullYear()} Media Buzz. All rights reserved.</p>
+                        <p className='text-center my-4'>© {new Date().getFullYear()} Media Buzz. All rights reserved by Vanshika Koshti.</p>
                     </div>
                 </div>
             </div>

@@ -15,7 +15,7 @@ import Footer from "./Footer";
 export function ServiceCardMini({ icon, title, description }){
   return (
     <div className="">
-    <div className="card p-4 m-2 cust-card">
+    <div className="card p-4 m-2 cust-card" data-aos="fade-up" data-aos-delay="100">
         <div  className="icon my-2" >
         <i><FontAwesomeIcon icon={icon} style={{ color: '#ffc107', fontSize: '32px' }}  /></i>
         <h6 className="">{title}</h6>
@@ -28,7 +28,7 @@ export function ServiceCardMini({ icon, title, description }){
 export function ServiceCard({ icon, title, description }) {
   return (
     <div className="">
-      <div className="card px-5 py-3 my-4 cust-card">
+      <div className="card px-5 py-3 my-4 cust-card" data-aos="fade-up" data-aos-delay="100">
         <div className="icon my-3">
           <i>
             <FontAwesomeIcon
@@ -66,7 +66,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
         </div>
       </div>
       <div className="row justify-content-center py-4">
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
           <ServiceCard
             icon={faRankingStar}
             title={
@@ -79,7 +79,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
             description="Accelerate your online store's growth with tailored e-commerce strategies. From product page optimization"
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
           <ServiceCard
             icon={faPenToSquare}
             title={

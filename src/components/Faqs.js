@@ -16,7 +16,7 @@ export default function Faqs() {
           <div className="row default-padding justify-content-center">
           <div className="col-md-8">
             <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="accordion-header">
                   <button
                     class="accordion-button"
@@ -38,7 +38,7 @@ export default function Faqs() {
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                 <h2 class="accordion-header">
                   <button
                     class="accordion-button collapsed"
@@ -61,7 +61,7 @@ export default function Faqs() {
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
                 <h2 class="accordion-header">
                   <button
                     class="accordion-button collapsed"

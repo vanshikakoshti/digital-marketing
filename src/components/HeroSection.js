@@ -1,7 +1,7 @@
 // HeroSection.jsx
 import React from "react";
 import "./custom.css"; // Optional for custom styles
-import heroImg from "./assets/img/hero-img.jpg"; // Replace with your actual image
+import heroImg from "./assets/img/hero-img.png"; // Replace with your actual image
 import CounterBox from "./CounterBox";
 
 const HeroSection = () => {
@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="py-5 ">
       <div className="container d-flex flex-column flex-lg-row align-items-center justify-content-between hero-img-container">
         {/* Left Text Content */}
-        <div className="col-lg-6 mb-4">
+        <div className="col-lg-6">
           <p className="text-yellow text-uppercase">Digital Marketing</p>
           <h1 className="banner-heading">
             TURNING <span className="text-yellow">CLICKS</span> INTO <br />
@@ -33,30 +33,7 @@ const HeroSection = () => {
         {/* Right Image + Card */}
         <div className="col-lg-5 position-relative">
           <img src={heroImg} alt="Team" className="hero-section-img" />
-          <div className="p-3 hero-section-img-text">
-            <p className="mb-1 fw-semibold">Trusted by Many Clients</p>
-            <div className="d-flex align-items-center mb-2">
-              <img
-                src="https://i.pravatar.cc/30?img=1"
-                className="client-img"
-                alt="client1"
-              />
-              <img
-                src="https://i.pravatar.cc/30?img=2"
-                className="client-img"
-                alt="client2"
-              />
-              <img
-                src="https://i.pravatar.cc/30?img=3"
-                className="client-img"
-                alt="client3"
-              />
-              <span className="bg-secondary client-img text-white d-flex justify-content-center align-items-center">
-                +
-              </span>
-            </div>
-
-            <div className="text-warning">★★★★★</div>
+          <div className="p-3 hero-section-img-text" data-aos="fade-up" data-aos-delay="200">
           </div>
         </div>
       </div>
