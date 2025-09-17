@@ -26,7 +26,7 @@ export default function Faqs() {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    What services does Archon provide?
+                   What is digital marketing and why is it important?
                   </button>
                 </h2>
                 <div
@@ -34,7 +34,7 @@ export default function Faqs() {
                   class="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">We offer a full suite of digital marketing solutions, including SEO, social media management, paid advertising (PPC), content creation, email marketing, and brand strategy.
+                  <div class="accordion-body">Digital marketing uses online channels—like search engines, social media, email, and websites—to promote brands and connect with customers. It’s essential for visibility, lead generation, and staying competitive in today’s digital-first world.
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    How long will it take to see results?
+                    How long does it take to see results from digital marketing?
                   </button>
                 </h2>
                 <div
@@ -57,7 +57,7 @@ export default function Faqs() {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                   While some campaigns like PPC can deliver immediate results, strategies like SEO and content marketing typically take 3–6 months to show significant improvements.
+                  It depends on the strategy. SEO can take 3–6 months, while PPC and social ads can show results within days. Consistency and data analysis are key to long-term success.
                   </div>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                   Do you work with businesses of all sizes?
+                   What services do you offer as part of digital marketing?
                   </button>
                 </h2>
                 <div
@@ -80,7 +80,7 @@ export default function Faqs() {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                   Yes, we collaborate with startups, small businesses, and large enterprises across multiple industries to tailor strategies that meet their unique needs.
+                   We offer SEO, social media management, paid ads (PPC), content creation, email marketing, and brand strategy—all tailored to your business goals.
                   </div>
                 </div>
               </div>

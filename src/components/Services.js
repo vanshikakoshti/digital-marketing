@@ -54,14 +54,13 @@ export function ServiceCardMainSection({ icon, title, description }) {
         <div className="col-md-5">
           <p className="text-yellow text-uppercase">Our Services</p>
           <h2 className="">
-            Our Expertise, Your
-            <br /> Growth
+            Driving Growth Through
+            <br /> Our Expertise
           </h2>
         </div>
         <div className="col-md-6">
           <p>
-            We provide a full suite of digital marketing solutions designed to
-            help your brand thrive. From strategy and creativity to execution
+           We offer innovative IT solutions that support business growth, optimize operations, and prepare you for the future of technology.
           </p>
         </div>
       </div>
@@ -76,7 +75,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
                 Solution
               </>
             }
-            description="Accelerate your online store's growth with tailored e-commerce strategies. From product page optimization"
+            description="Boost your online store’s growth with customized e-commerce strategies. From optimizing product pages."
           />
         </div>
         <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
@@ -89,7 +88,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
                 Marketing
               </>
             }
-            description="Create valuable and engaging content that connects with your audience and strengthens brand authority."
+            description="Generate impactful content that engages your audience and elevates your brand’s reputation."
           />
         </div>
         <div className="col-md-4">
@@ -102,7 +101,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
                 Services
               </>
             }
-            description="From concept to final cut, we create compelling video content that tells your brand story, showcases you"
+            description="We create engaging videos that tell your brand’s story and highlight your unique value."
           />
         </div>
         <div className="col-md-4">
@@ -115,7 +114,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
                 Web Development
               </>
             }
-            description="Tailored websites built to match your business goals with speed, security, and scalability."
+            description="Custom websites designed to align with your business objectives, offering speed, security, and scalability."
           />
         </div>
         <div className="col-md-4">
@@ -128,7 +127,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
                 Setup
               </>
             }
-            description="Complete online store solutions with secure payments, product management, and smooth checkout."
+            description="Complete e-commerce solutions with secure payments, easy management, and smooth checkout."
           />
         </div>
         <div className="col-md-4">
@@ -141,7 +140,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
                 Integration
               </>
             }
-            description="Seamless migration and integration to cloud platforms for better flexibility and performance."
+            description="Smooth migration and integration with cloud platforms to enhance flexibility and performance."
           />
         </div>
       </div>
@@ -163,7 +162,7 @@ export function ChooseUs({ icon, title, description }) {
             <br /> Trust Archon
           </h2>
           <p>
-            Unlock new opportunities for growth with strategies designed to boost visibility, attract the right audience, and convert interest into results.
+           Discover fresh growth opportunities through targeted strategies that increase brand awareness, attract the right customers, and drive conversions.
           </p>
           <div className="my-4">
             <button className="btn btn-cust px-4">Learn More</button>
@@ -174,29 +173,29 @@ export function ChooseUs({ icon, title, description }) {
         <div className="col-md-6">
           <ServiceCardMini
             icon={faRankingStar}
-            title="Proven Track Record"
-            description="We’ve successfully executed campaigns for brands"
+            title="Trusted by Brands"
+            description="We’ve executed impactful campaigns with proven outcomes."
           />
         </div>
         <div className="col-md-6">
           <ServiceCardMini
             icon={faPenToSquare}
-            title="Innovative Solutions"
-            description="We blend creativity with technology to develop fresh."
+            title="Creative Innovation"
+            description="Blending creative vision with cutting-edge technology to innovate."
           />
         </div>
         <div className="col-md-6">
           <ServiceCardMini
             icon={faVideo}
-            title="Data-Driven"
-            description="Every decision we make is based on solid analytics"
+            title="Analytics-Focused"
+            description="Every decision we make is grounded in in-depth data analysis."
           />
         </div>
         <div className="col-md-6">
           <ServiceCardMini
             icon={faLaptop}
-            title="Client Support"
-            description="From the initial consultation to ongoing campaign"
+            title="Dedicated Support"
+            description="Guiding you from initial consultation to ongoing campaign success."
           />
         </div>
       </div>

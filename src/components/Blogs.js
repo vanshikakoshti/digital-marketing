@@ -56,8 +56,7 @@ export function BlogsCarouselSlider() {
         </div>
         <div className="col-md-6">
           <p>
-            We provide a full suite of digital marketing solutions designed to
-            help your brand thrive. From strategy and creativity to execution
+            From start to finish, we tailor digital marketing services that get real results and help your brand grow.
           </p>
         </div>
       </div>
@@ -65,32 +64,32 @@ export function BlogsCarouselSlider() {
           <OurBlogs
             img={blog1Img}
             updatedDate="Aug 16, 2025"
-            title= {<>Affordable Website<br /> Website Solutions </>}  
+            title= {<>Mastering Digital<br />Marketing Tips</>}  
             link="Read More"
           />
           
           <OurBlogs
             img={blog2Img}
             updatedDate="Aug 14, 2025"
-            title={<>Landing Page Boosts<br /> Conversions</>}  
+            title={<>Ultimate Guide to<br /> Digital Marketing</>}  
                       link="Read More"
           />
            <OurBlogs
             img={blog3Img}
             updatedDate="Aug 12, 2025"
-            title={<>The Future of Web<br />Web Design Trends 2025</>}
+            title={<>Boost Your Business<br />with Marketing</>}
             link="Read More"
           />
           <OurBlogs
             img={blog4Img}
             updatedDate="Aug 10, 2025"
-            title={<>The Rise of Minimalist<br />Web Design in 2025</>}
+            title={<>Top Digital Marketing<br />Trends 2025</>}
             link="Read More"
           />
           <OurBlogs
             img={blog5Img}
             updatedDate="Aug 8, 2025"
-            title={<>How AI is Transforming<br />the Future of Work</>}
+            title={<>From Clicks to<br />Customers Strategy</>}
             link="Read More"
           />
         </Slider>
@@ -108,9 +107,8 @@ export default function Blogs() {
         breadcrumb="Our Blogs"
         description1={
           <>
-            We craft targeted digital marketing strategies that not only attract
-            attention but also <br />
-            build lasting relationships. Through data-driven insights
+           We create targeted digital marketing strategies that attract attention and build lasting <br />
+           relationships using data-driven insights for real results. 
           </>
         }
       />

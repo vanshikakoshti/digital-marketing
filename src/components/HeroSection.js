@@ -12,12 +12,11 @@ const HeroSection = () => {
         <div className="col-lg-6">
           <p className="text-yellow text-uppercase">Digital Marketing</p>
           <h1 className="banner-heading">
-            TURNING <span className="text-yellow">CLICKS</span> INTO <br />
-            LOYAL CUSTOMERS
+            CONVERTING <span className="text-yellow"> VISITORS </span> INTO 
+            DEDICATED CUSTOMERS.
           </h1>
           <p className="my-3">
-            We craft targeted digital marketing strategies that not only attract
-            attention but also build lasting relationships.
+            We develop focused digital marketing strategies designed to capture attention and foster long-term connections.
           </p>
           <div className="mt-4">
             <button className="btn btn-cust px-4">Get Started</button>

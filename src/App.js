@@ -1,35 +1,16 @@
 import './App.css';
-import AboutUs, {About} from './components/AboutUs';
-import ContactUs, {ContactForm} from './components/ContactUs';
-import Faqs from './components/Faqs';
-import Footer from './components/Footer';
-import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
-import Services, {ServiceCardMainSection, ChooseUs} from './components/Services';
+import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
+import Services from './components/Services';
+import Blogs from './components/Blogs';
+import DigitalMarketing from './components/DigitalMarketing'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Blogs, {BlogsCarouselSlider} from './components/Blogs';
-
-
-function HomePage() {
-  return (
-    <>
-      <HeroSection />
-      <hr />
-      <About />
-      <ServiceCardMainSection />
-      <ChooseUs />
-      <Faqs />
-      <BlogsCarouselSlider />
-      <ContactForm />
-      <Footer />
-
-    </>
-  );
-}
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
     useEffect(() => {
@@ -38,19 +19,21 @@ function App() {
       once: false,     // whether animation should happen only once
     });
   }, []);
+
   return (
     <div className="App">
-       <Router>
+       <BrowserRouter basename="/digital-marketing">
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<DigitalMarketing />} />
+          <Route path="/digital-marketing" element={<DigitalMarketing />} />
           <Route path="/about" element={<AboutUs/>} />
           <Route path="/services" element={<Services/>} />
           <Route path="/blogs" element={<Blogs/>} />
           <Route path="/contact" element={<ContactUs />} />
           {/* Add more routes as needed */}
         </Routes>
-    </Router>
+    </BrowserRouter>
     </div>
   );
 }

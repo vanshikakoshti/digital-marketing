@@ -20,13 +20,11 @@ export  function About() {
           <div className="col-md-6">
             <p className="text-yellow text-uppercase">About Us</p>
             <h2 className="">
-              Maximize Your Brand’s
-              <br /> Online Potential
+              Elevate Your Brand’s 
+              <br />Digital Presence
             </h2>
             <p>
-              Unlock new opportunities for growth with strategies designed to
-              boost visibility, attract the right audience, and convert interest
-              into results.
+             Discover new growth opportunities with tailored strategies that boost visibility.Engage the right audience effectively and transform their interest into measurable results.Drive meaningful outcomes that grow your brand.
             </p>
             <div className="my-4">
             <button className="btn btn-cust px-4">Learn More</button>
@@ -61,9 +59,9 @@ export default function AboutUs() {
         breadcrumb="About Us"
         description1={
             <>
-              We are passionate about delivering innovative solutions that help businesses thrive in the digital era.
+              We’re dedicated to providing cutting-edge solutions that empower businesses 
               <br />
-              Our team combines creativity, technology, and expertise to craft
+              to succeed in today’s digital world.
             </>
           }
       />
