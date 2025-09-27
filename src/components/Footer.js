@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="col-md-4">
                 <img src={logo} alt="Team" className="footer-logo"  />
                 <p>A modern, fully customizable website template designed for agencies that want to showcase their services, portfolio, and expertise</p>
-                <div className="d-flex">
+                <div className="d-flex my-4">
                     <div className="bg-secondary client-img text-white d-flex justify-content-center align-items-center"> <a href="/"><FontAwesomeIcon icon={faFacebookF} style={{ color: "#fff"}}/></a></div>
                     <div className="bg-secondary client-img text-white d-flex justify-content-center align-items-center"> <a href="/"><FontAwesomeIcon icon={faInstagram} style={{ color: "#fff"}}/></a></div>
                     <div className="bg-secondary client-img text-white d-flex justify-content-center align-items-center"> <a href="/"><FontAwesomeIcon icon={faLinkedinIn} style={{ color: "#fff"}}/></a></div>
@@ -49,7 +49,7 @@ export default function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <p className='text-center my-4'>© {new Date().getFullYear()} Media Buzz. All rights reserved by Vanshika Koshti.</p>
+                        <p className='text-center my-4'>© {new Date().getFullYear()} Media Buzz. All rights reserved by <a href='https://vanshikakoshti.github.io/portfolio/' target='_blank' className='copyright'>Vanshika Koshti.</a></p>
                     </div>
                 </div>
             </div>

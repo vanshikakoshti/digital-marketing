@@ -30,7 +30,7 @@ export function OurBlogs({ img, title, updatedDate, link }) {
   );
 }
 
-// ✅ Owl Carousel Section (RENAMED)
+
 export function BlogsCarouselSlider() {
   const settings = {
     dots: true,
@@ -39,6 +39,32 @@ export function BlogsCarouselSlider() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
+      responsive: [
+    {
+      breakpoint: 1024, // screens smaller than 1024px
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 768, // screens smaller than 768px
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 480, // screens smaller than 480px
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false, // optionally hide dots on very small screens
+      },
+    },
+  ],
   };
   return (
     <div className="default-padding pb-0">

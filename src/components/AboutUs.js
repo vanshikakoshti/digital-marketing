@@ -14,10 +14,10 @@ export  function About() {
     <div className="default-padding">
       <div className="container">
         <div className="row" style={{justifyContent:'space-around', alignItems:'center'}}>
-          <div className="col-md-4">
+          <div className="col-lg-4 col-md-8">
             <img src={aboutImg} alt="Team" className="" style={{borderRadius:'12px', height:'350px', objectFit:'cover'}} />
           </div>
-          <div className="col-md-6">
+          <div className="col-lg-6 col-md-12">
             <p className="text-yellow text-uppercase">About Us</p>
             <h2 className="">
               Elevate Your Brand’s 
@@ -31,13 +31,13 @@ export  function About() {
             </div>
 
             <div className="row justify-content-center"  data-aos="fade-up" data-aos-delay="100">
-              <div className='col-md-6'>
+              <div className='col-lg-6 col-md-6'>
                 <ServiceCardMini
                   icon={faHandshake}
                   title="Social Media Marketing"
                 />
               </div>
-              <div className='col-md-6'>
+              <div className='col-lg-6 col-md-6'>
                 <ServiceCardMini
                   icon={faChartLine}
                   title="Performance Tracking"

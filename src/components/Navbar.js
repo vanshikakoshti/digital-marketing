@@ -1,38 +1,60 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from "./assets/img/logo.png"; 
-export default function Navbar() {
-  return (
-    <div>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-theme">
-        <div className="container">
-          <Link className="navbar-brand" to="/"><img src={logo} alt="Team" className="logo" /></Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul className="navbar-nav justify-content-end">
-        <li className="nav-item">
-          <Link className="nav-link" to="/">Home</Link>
-        </li>
-        
-        <li className="nav-item dropdown">
-          <Link className="nav-link" to="/about">About</Link>
-        </li>
+import logo from "./assets/img/logo.png";
 
-        <li className="nav-item">
-          <Link className="nav-link" to="/services">Services</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/blogs">Blogs</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/contact">Contact Us</Link>
-        </li>
-      </ul>
-    </div>
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
+  return (
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-theme">
+      <div className="container">
+        <Link className="navbar-brand" to="/" onClick={closeMenu}>
+          <img src={logo} alt="Team" className="logo" />
+        </Link>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          onClick={toggleNavbar}
+          aria-controls="navbarSupportedContent"
+          aria-expanded={isOpen}
+          aria-label="Toggle navigation"
+        >
+          {isOpen ? (
+            <span className="close-icon">&times;</span> // This shows "X"
+          ) : (
+            <span className="navbar-toggler-icon"></span> // Default hamburger
+          )}
+        </button>
+
+        <div className={`collapse navbar-collapse justify-content-end ${isOpen ? 'show' : ''}`} id="navbarSupportedContent">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/" onClick={closeMenu}>Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about" onClick={closeMenu}>About</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/services" onClick={closeMenu}>Services</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/blogs" onClick={closeMenu}>Blogs</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact" onClick={closeMenu}>Contact Us</Link>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
-  )
+      </div>
+    </nav>
+  );
 }

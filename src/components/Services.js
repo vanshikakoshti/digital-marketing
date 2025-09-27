@@ -65,7 +65,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
         </div>
       </div>
       <div className="row justify-content-center py-4">
-        <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <ServiceCard
             icon={faRankingStar}
             title={
@@ -78,7 +78,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
             description="Boost your online store’s growth with customized e-commerce strategies. From optimizing product pages."
           />
         </div>
-        <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <ServiceCard
             icon={faPenToSquare}
             title={
@@ -91,7 +91,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
             description="Generate impactful content that engages your audience and elevates your brand’s reputation."
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-6">
           <ServiceCard
             icon={faVideo}
             title={
@@ -104,7 +104,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
             description="We create engaging videos that tell your brand’s story and highlight your unique value."
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-6">
           <ServiceCard
             icon={faLaptop}
             title={
@@ -117,7 +117,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
             description="Custom websites designed to align with your business objectives, offering speed, security, and scalability."
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-6">
           <ServiceCard
             icon={faCartShopping}
             title={
@@ -130,7 +130,7 @@ export function ServiceCardMainSection({ icon, title, description }) {
             description="Complete e-commerce solutions with secure payments, easy management, and smooth checkout."
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-6">
           <ServiceCard
             icon={faCloudArrowDown}
             title={
@@ -155,43 +155,43 @@ export function ChooseUs({ icon, title, description }) {
         className="row"
         style={{ justifyContent: "space-around"}}
       >
-        <div className="col-md-5">
+        <div className="col-lg-5 col-md-12">
           <p className="text-yellow text-uppercase">Why Choose Us</p>
           <h2 className="">
            Why Brands
             <br /> Trust Archon
           </h2>
-          <p>
+          <p className="">
            Discover fresh growth opportunities through targeted strategies that increase brand awareness, attract the right customers, and drive conversions.
           </p>
           <div className="my-4">
             <button className="btn btn-cust px-4">Learn More</button>
             </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-lg-6 col-md-12">
         <div className="row justify-content-center">
-        <div className="col-md-6">
+        <div className="col-lg-6 col-md-6">
           <ServiceCardMini
             icon={faRankingStar}
             title="Trusted by Brands"
             description="We’ve executed impactful campaigns with proven outcomes."
           />
         </div>
-        <div className="col-md-6">
+        <div className="col-lg-6 col-md-6">
           <ServiceCardMini
             icon={faPenToSquare}
             title="Creative Innovation"
             description="Blending creative vision with cutting-edge technology to innovate."
           />
         </div>
-        <div className="col-md-6">
+        <div className="col-lg-6 col-md-6">
           <ServiceCardMini
             icon={faVideo}
             title="Analytics-Focused"
             description="Every decision we make is grounded in in-depth data analysis."
           />
         </div>
-        <div className="col-md-6">
+        <div className="col-lg-6 col-md-6">
           <ServiceCardMini
             icon={faLaptop}
             title="Dedicated Support"

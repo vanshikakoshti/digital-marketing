@@ -1,6 +1,6 @@
 import React from "react";
 
-const PageHeader = ({ title, breadcrumb, description1, description2 }) => {
+const PageHeader = ({ title, breadcrumb, description1}) => {
   return (
     <div className="pageheader-container  text-white  text-center">
     <div className="container py-4">

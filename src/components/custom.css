@@ -22,6 +22,12 @@ img {
   padding-bottom: 50px;
 }
 /* Navbar css */
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+  background-color: #131313 ;
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
 .navbar{
   height: 70px;
 }
@@ -65,7 +71,6 @@ li.nav-item{
       text-transform: uppercase;
 }
 .hero-section-img{
-      height: 450px;
     width: 100%;
     object-fit: cover;
     border-radius: 12px;
@@ -131,6 +136,10 @@ padding-left: 0;
 }
 .footer-logo{
   width: 250px;
+}
+a.copyright{
+  color: #fff;
+  text-decoration: none;
 }
 .accordion-item:first-of-type>.accordion-header .accordion-button, .accordion-button:not(.collapsed){
   background-color: #ffc107 !important;
