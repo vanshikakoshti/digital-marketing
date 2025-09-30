@@ -49,7 +49,7 @@ export default function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <p className='text-center my-4'>© {new Date().getFullYear()} Media Buzz. All rights reserved by <a href='https://vanshikakoshti.github.io/portfolio/' target='_blank' className='copyright'>Vanshika Koshti.</a></p>
+                        <p className='text-center my-4'>© {new Date().getFullYear()} Media Buzz. All rights reserved by <a href='https://vanshikakoshti.github.io/portfolio/' target='_blank' rel="noreferrer"  className='copyright'>Vanshika Koshti.</a></p>
                     </div>
                 </div>
             </div>
